@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "motion"
+version = "0.1.0"
+description = ""
+authors = ["Azis <azissalizov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.1.6"
+djangorestframework = "^3.14.0"
+drf-yasg = "^1.21.4"
+psycopg2-binary = "^2.9.5"
+django-rest-knox = "^4.2.0"
+django-ckeditor = "^6.5.1"
+pillow = "^9.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
